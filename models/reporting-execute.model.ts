@@ -1,7 +1,7 @@
 
 export class ReportingExecuteModel {
   id: number;
-  orderby: string;
+  orderby?: string;
   offset: number;
   limit: number;  
 }

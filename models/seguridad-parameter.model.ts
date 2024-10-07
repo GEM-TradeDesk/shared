@@ -1,5 +1,5 @@
 // Define an interface for the parameters table
-export interface Parameter {
+export interface SeguridadParameterModel {
     id: number;
     application: string;
     parameter: string;
