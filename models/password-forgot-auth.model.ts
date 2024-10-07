@@ -1,6 +1,6 @@
 // shared password-forgot-auth.model.ts
 
-export class PasswordForgotAuthModel {
+export interface PasswordForgotAuthModel {
 
   username?: string;
 

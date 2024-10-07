@@ -1,4 +1,4 @@
-export class SeguridadUserModel {
+export interface SeguridadUserModel {
 
   id?: number;
 

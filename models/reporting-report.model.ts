@@ -1,5 +1,5 @@
 
-export class ReportingReportModel {
+export interface ReportingReportModel {
   id: number;
   name: string;
   database: string;

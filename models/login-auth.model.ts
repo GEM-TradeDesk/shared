@@ -1,9 +1,9 @@
 // shared login-auth.model.ts
 
-export class LoginAuthModel {
+export interface LoginAuthModel {
 
   username?: string;
   password?: string;
 
-}
+};
 

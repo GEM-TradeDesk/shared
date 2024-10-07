@@ -2,7 +2,7 @@
 
 import { LoginAuthModel } from './login-auth.model';
 
-export class RegisterAuthModel extends LoginAuthModel {
+export interface RegisterAuthModel extends LoginAuthModel {
 
   name?: string;
   company?: string;

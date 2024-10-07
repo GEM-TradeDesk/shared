@@ -3,4 +3,4 @@ export interface Image {
     thumbnailImageSrc?:any;
     alt?:any;
     title?:any;
-}
+};
