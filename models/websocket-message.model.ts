@@ -1,6 +1,9 @@
+// src/shared/models/websocket-message.model.ts
+
+export type WebsocketMessageType = "Admin" | "Heartbeat" | "Echo" | "Broadcast" | "Trade" | "Quote" | "Book" ;
 
 export interface WebsocketMessageModel {
-    type: string;
-    timestamp: number; // Date strings are parsed as strings in JSON
-    payload?: any;
-  }
+  type: WebsocketMessageType,
+  timestamp: number; // Date strings are parsed as strings in JSON
+  payload?: any;
+};
